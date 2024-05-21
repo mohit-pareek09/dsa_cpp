@@ -1,0 +1,18 @@
+Q1. number of 1's bit in number 'n'.{leetcode 191}
+
+#include <iostream>
+using namespace std;
+int main() {
+  int n;
+  int count=0;
+  cin>> n;
+  for(int j=0;j<32;j++){
+        if(n&1){
+            count++;  }
+                 
+        n=n>>1;
+                        }
+  cout<<"Number of 1's in n : "<<count;
+
+    return 0;
+}
