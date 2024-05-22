@@ -16,3 +16,17 @@ int main() {
 
     return 0;
 }
+
+
+
+Q2.
+{ leetcode Q7 reverse number }
+
+
+
+Q3. power of 2's .{leetcode 231}
+ ways to solve:
+a. brut force
+b. reuse 2 
+
+
