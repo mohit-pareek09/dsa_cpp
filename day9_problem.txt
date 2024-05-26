@@ -1,0 +1,79 @@
+Qeuston 1: find the sum of elements in array
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+int arr[20];
+int n;
+int i,j;
+int sum = 0;
+cin>> n;
+cout<<"Enter all elements of arrays : "<< endl ;
+
+for( i=0; i<n ;i++){
+    cin>> arr[i] ;
+}
+
+for ( j=0; j<n; j++)
+{
+    sum= sum + arr[j];
+}
+
+cout<<" The sum of elements of array is: "<< sum <<endl;
+
+
+for( i=0; i<n ;i++){
+    cout<<"Element of arr[i] where i is "<< i <<" and value is :"<< arr[i] << endl;;
+}
+
+
+    return 0;
+
+}
+
+
+
+Qeuston 2: find the largest element in array.
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+int arr[20];
+int n;
+int i,j;
+
+cout<<" Enter size of array arr[] : " ;
+cin>> n;
+
+cout<<"Enter all elements of arrays : "<< endl ;
+
+for( i=0; i<n ;i++){
+    cin>> arr[i] ;
+}
+int maxi= INT16_MIN ;
+
+for ( j=0; j < n; j++)
+{
+    maxi=max(maxi,arr[j]);
+
+    // if(arr[j+1] > max ){
+    //        max=arr[j+1];
+    // }
+    
+
+}
+
+cout<<" The largest  element of array is: "<< maxi <<endl;
+
+
+for( i=0; i<n ;i++){
+    cout<<"Element of arr[i] where i is "<< i <<" and value is :"<< arr[i] << endl;;
+}
+
+    return 0;
+
+}
