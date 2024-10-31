@@ -1,0 +1,64 @@
+/* utility classes */
+.border{
+    border: 2px solid rgb(236, 12, 12);
+    margin: 3px;}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{padding: 10px;}
+
+
+/* Scrollbar container */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the vertical scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Dark background color for the track */
+    border-radius: 6px; /* Rounded corners for the scrollbar track */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Darker color for the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+    border: 3px solid #2c2c2c; /* Creates padding around the thumb for a more visible rounded effect */
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* Lighter color when hovered */
+}
+
+/* Scrollbar corner (for resizable elements) */
+::-webkit-scrollbar-corner {
+    background-color: #2c2c2c; /* Dark background for scrollbar corner */
+}
